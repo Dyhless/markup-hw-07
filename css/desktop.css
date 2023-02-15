@@ -70,12 +70,10 @@ body {
    letter-spacing: 0.02em;
 }
 
-.container {
-   margin-left: auto;
-   margin-right: auto;
-   padding-left: 15px;
-   padding-right: 15px;
-   width: 1158px;
+@media screen and (min-width: 1158px) {
+   .container {
+      width: 1158px;
+   }
 }
 
 /**
@@ -83,7 +81,7 @@ body {
   | HEADER
   |============================
 */
-
+/* 
 .header {
    border-bottom: 1px solid var(--corner-color);
 }
@@ -164,7 +162,9 @@ body {
    letter-spacing: 0.02em;
    margin: 0;
    padding: 0;
-}
+} */
+
+
 
 /**
   |============================

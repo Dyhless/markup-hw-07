@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+   .container {
+      width: 768px;
+   }
+}
+
+@media screen and (min-width: 428px) {
+   .mobile-menu-open {
+      display: none;
+   }
+}
