@@ -30,7 +30,7 @@
 							<span class="logo-web">web</span><span class="logo-dark">studio</span>
 						</a>
 					</div>
-					<button type="button" class="mobile-menu-open">
+					<button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
 						<svg class="mobile-menu-open-icon" width="32" height="32">
 							<use href="./images/icons.svg#icon-hamburger"></use>
 						</svg>
@@ -52,6 +52,28 @@
 						<a class="contact-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
 						<a class="contact-item" href="tel:+110001111111">+11 (000) 111-11-11</a>
 					</div>
+				</div>
+				<div class="menu-container js-menu-container" id="mobile-menu">
+					<button class="menu-toggle js-close-menu">
+						<svg class="modal-close-icon" width="8" height="8">
+							<use href="./images/icons.svg#close"></use>
+						</svg>
+					</button>
+					<ul class="mobile-menu-list">
+						<li class="mobile-menu-item">Studio</li>
+						<li class="mobile-menu-item">Portfolio</li>
+						<li class="mobile-menu-item">Contacts</li>
+					</ul>
+					<div class="mobile-module-contacts">
+						<a class="module-contact-phone" href="mailto:info@devstudio.com">+11 (000) 111-11-11</a>
+						<a class="module-contact-email" href="tel:+110001111111">info@devstudio.com</a>
+					</div>
+					<ul>
+						<li><a href=""></a></li>
+						<li><a href=""></a></li>
+						<li><a href=""></a></li>
+						<li><a href=""></a></li>
+					</ul>
 				</div>
 			</header>
 			<main>
@@ -592,7 +614,14 @@
 				</div>
 			</div> -->
 		</div>
-		<!-- <script src="https://cdn.jsdelivr.net/npm/body-scroll-lock@4.0.0-beta.0/lib/bodyScrollLock.min.js"></script> -->
-		<!-- <script src="./js/modal.js"></script> -->
+		<script src="https://cdn.jsdelivr.net/npm/body-scroll-lock@4.0.0-beta.0/lib/bodyScrollLock.min.js"></script>
+		<script
+			defer
+			src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+			integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+			crossorigin="anonymous"
+		></script>
+		<script defer src="./js/mobile-menu.js"></script>
+		<script src="./js/modal.js"></script>
 	</body>
 </html>
