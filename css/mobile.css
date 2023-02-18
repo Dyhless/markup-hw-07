@@ -95,6 +95,7 @@ img {
          url('../images/hero/img_mob@2x.jpg');
    }
 }
+
 .hero-title {
    font-weight: 700;
    font-size: 36px;
@@ -103,6 +104,12 @@ img {
    width: 318px;
    margin-left: auto;
    margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+   .hero {
+      margin-bottom: 96px;
+   }
 }
 
 /**
@@ -252,4 +259,29 @@ img {
 .module-contact-email:hover,
 .module-contact-email:focus {
    color: var(--accent-color);
+}
+
+/**
+  |============================
+  | ADVANTAGES Mobile
+  |============================
+*/
+
+@media screen and (max-width: 768px) {
+   .icon-section {
+      display: none;
+   }
+   .advantages-list {
+      display: flex;
+      flex-direction: column;
+      gap: 72px;
+      }
+   .list-titles {
+      text-align: center;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.11;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+   }
 }

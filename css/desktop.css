@@ -387,9 +387,15 @@ body {
 
 /**
   |============================
-  | JOB Screens Section
+  | JOB Screens Desktop
   |============================
 */
+
+@media screen and (max-width: 1199px) {
+   .job-images {
+      display: none;
+   }
+}
 
 .job-images {
    padding-bottom: 120px;
@@ -417,11 +423,11 @@ body {
 
 /**
   |============================
-  | ADVANTAGES Section
+  | ADVANTAGES Desktop
   |============================
 */
 
-
+@media screen and (min-width: 1200px) {
 
 .advantages {
    padding-top: 120px;
@@ -463,6 +469,9 @@ body {
    line-height: 1.5;
    margin: 0;
 }
+}
+
+
 
 /**
   |============================
