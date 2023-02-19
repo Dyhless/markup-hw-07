@@ -294,3 +294,88 @@ img {
       gap: 72px;
    }
 }
+
+/**
+  |============================
+  | PROFESSIONALS Mobile
+  |============================
+*/
+
+@media screen and (max-width: 767px) {
+   .professional-list {
+      display: flex;
+      flex-direction: column;
+      gap: 72px;
+   }
+}
+
+/**
+  |============================
+  | CUSTOMERS Mobile
+  |============================
+*/
+
+@media screen and (max-width: 1199px) {
+   .customers-overlay {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .customer-set:nth-child(1),
+   .customer-set:nth-child(3) {
+      padding-bottom: 48px;
+   }
+   .customers {
+      padding: 96px 0;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .customers-box {
+      margin-left: auto;
+      margin-right: auto;
+      width: 396px;
+      height: 520px;
+   }
+} 
+
+/**
+  |============================
+  | FOOTER Mobile
+  |============================
+*/
+
+@media screen and (max-width: 767px) {
+   .footer-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 72px;
+   }
+   .adaptive-logo {
+      margin-left: 30%;
+   }
+   .social-footer {
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .footer-form {
+      display: flex;
+      flex-direction: column;
+      width: 396px;
+      margin: 0;
+   }
+   .input-email {
+      margin-bottom: 18px;
+      width: 396px;
+   }
+   .footer-link-text {
+      display: flex;
+      justify-content: center;
+   }
+   .footer-title-adptive {
+      display: flex;
+      justify-content: center;
+   }
+}
+

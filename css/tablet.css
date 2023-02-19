@@ -162,4 +162,73 @@
       width: 340px;
       height: 120px;
    }
+   .list-titles{
+      text-align: left;
+   }
+}
+
+/**
+  |============================
+  | PROFESSIONALS Tablet
+  |============================
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+   .professional-list {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 24px;
+   }
+   .prof-item:nth-child(1) {
+      margin-bottom: 64px;
+   }
+   .prof-item:nth-child(2) {
+      margin-bottom: 64px;
+   }
+}
+
+/**
+  |============================
+  | CUSTOMERS Mobile
+  |============================
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+   .customers-box {
+      margin-left: auto;
+      margin-right: auto;
+      width: 552px;
+      height: 360px;
+   }
+}
+
+/**
+  |============================
+  | FOOTER Tablet
+  |============================
+*/
+
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+   .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+   }
+   .input-email {
+      margin-right: 0;
+      margin-bottom: 18px;
+   }
+}
+@media screen and (min-width: 768px) {
+   .input-email {
+      margin-right: 24px;
+   }
+   .footer-form {
+      display: flex;
+      width: 453px;
+      height: 40px;
+   }
 }
