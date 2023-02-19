@@ -267,15 +267,10 @@ img {
   |============================
 */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
    .icon-section {
-      display: none;
+         display: none;
    }
-   .advantages-list {
-      display: flex;
-      flex-direction: column;
-      gap: 72px;
-      }
    .list-titles{
       text-align: center;
       font-weight: 700;
@@ -290,5 +285,12 @@ img {
       line-height: 1.5;
       letter-spacing: 0.02em;
       text-transform: capitalize;
+   }
+}
+@media screen and (max-width: 767px) {
+   .advantages-list {
+      display: flex;
+      flex-direction: column;
+      gap: 72px;
    }
 }

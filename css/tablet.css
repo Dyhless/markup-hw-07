@@ -150,16 +150,16 @@
 */
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-   .icon-section {
-      display: none;
+   .advantages {
+      margin-bottom: 96px;
    }
-
-   .list-set {
+   .advantages-list {
       display: flex;
       flex-wrap: wrap;
       gap: 24px;
-      /* width: 356px;
-      height: 120px; */
-      outline: 1px solid blue;
+   }
+   .advantage {
+      width: 340px;
+      height: 120px;
    }
 }
