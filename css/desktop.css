@@ -78,6 +78,12 @@ body {
 
 /**
   |============================
+  | STYLE FOR DESKTOP
+  |============================
+*/
+
+/**
+  |============================
   | HEADER Desktop
   |============================
 */
@@ -290,6 +296,8 @@ body {
 .input-email:focus {
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+
+
 .button-subs {
    display: flex;
    align-items: center;
@@ -996,3 +1004,4 @@ body {
    color: var(--main-background-color);
    padding: 0px 32px;
 }
+

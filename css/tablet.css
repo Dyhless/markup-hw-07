@@ -18,7 +18,7 @@
 
 /**
   |============================
-  | HEADER Tablet
+  | HEADER Tablet 
   |============================
 */
 
@@ -236,3 +236,27 @@
       height: 40px;
    }
 }
+
+/**
+  |============================
+  | Buttons Filter / Portfolio
+  |============================
+*/
+
+@media screen and (max-width: 767px) {
+   .button-list {
+      display: flex;
+      flex-wrap: wrap;
+   }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+   .gallery-block {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+      gap: 24;
+   }
+}
+
+   
