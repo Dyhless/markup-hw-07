@@ -216,6 +216,7 @@
       display: flex;
       flex-wrap: wrap;
       gap: 24px;
+      padding-left: 75px;
    }
    .input-email {
       margin-right: 0;
@@ -226,9 +227,12 @@
    .input-email {
       margin-right: 24px;
    }
+   .footer-subscribe {
+      width: 453px;
+      height: 80px;
+   }
    .footer-form {
       display: flex;
-      width: 453px;
       height: 40px;
    }
 }
