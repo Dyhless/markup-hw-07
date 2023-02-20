@@ -348,7 +348,6 @@ body {
 @media screen and (min-width: 768px) {
    .hero {
       padding: 188px 0;
-      margin-bottom: 72px;
       min-height: 600px;
       max-width: 1440px;
       background-image: linear-gradient(to right,
@@ -766,6 +765,7 @@ body {
 }
 .customers-overlay {
    display: flex;
+   flex-wrap: wrap;
    height: 88px;
    gap: 24px;
    justify-content: center;

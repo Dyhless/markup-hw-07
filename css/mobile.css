@@ -105,12 +105,6 @@ img {
    margin-right: auto;
 }
 
-@media screen and (max-width: 768px) {
-   .hero {
-      margin-bottom: 96px;
-   }
-}
-
 /**
   |============================
   | Mobile menu MODAL
@@ -143,8 +137,6 @@ img {
    border: 1px solid rgba(0, 0, 0, 0.1);
    border-radius: 50%;
 }
-
-
 
 .menu-toggle:hover,
 .menu-toggle:focus {
@@ -292,6 +284,9 @@ img {
       flex-direction: column;
       gap: 72px;
    }
+   .advantages {
+      padding: 96px 0;
+   }
 }
 
 /**
@@ -329,7 +324,7 @@ img {
    }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 396px) and (max-width: 767px) {
    .customers-box {
       margin-left: auto;
       margin-right: auto;
@@ -337,6 +332,19 @@ img {
       height: 520px;
    }
 } 
+
+@media screen and (max-width: 397px) {
+   .customers-box {
+      margin-left: auto;
+      margin-right: auto;
+      width: 290px;
+      height: 760px;
+   }
+   .customer-set:nth-child(1),
+   .customer-set:nth-child(3) {
+      padding-bottom: 0;
+   }
+}
 
 /**
   |============================
