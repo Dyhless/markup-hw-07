@@ -228,7 +228,7 @@
    }
    .footer-subscribe {
       width: 453px;
-      height: 80px;
+      background-size: cover;
    }
    .footer-form {
       display: flex;
@@ -249,13 +249,23 @@
    }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+/**
+  |============================
+  | Gallery Tablel / Portfolio
+  |============================
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
    .gallery-block {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: left;
-      gap: 24;
+      width: 746px;
    }
 }
-
    
+@media screen and (max-width: 767px) {
+   .examples-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 48px;
+      width: 360px;
+   }
+}
